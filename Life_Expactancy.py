@@ -12,14 +12,14 @@
 # In[2]:
 
 
-from kaggle.api.kaggle_api_extended import KaggleApi
+#from kaggle.api.kaggle_api_extended import KaggleApi
 
 
 # In[3]:
 
 
-api = KaggleApi()
-api.authenticate()
+#api = KaggleApi()
+#api.authenticate()
 
 
 # In[4]:
