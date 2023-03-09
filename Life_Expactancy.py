@@ -32,7 +32,7 @@ import zipfile
 
 
 import streamlit as st
-import sklearn
+#import sklearn
 
 
 # In[20]:
