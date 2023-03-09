@@ -12,14 +12,14 @@
 # In[2]:
 
 
-#from kaggle.api.kaggle_api_extended import KaggleApi
+from kaggle.api.kaggle_api_extended import KaggleApi
 
 
 # In[3]:
 
 
-#api = KaggleApi()
-#api.authenticate()
+api = KaggleApi()
+api.authenticate()
 
 
 # In[4]:
@@ -32,7 +32,7 @@ import zipfile
 
 
 import streamlit as st
-#import sklearn
+import sklearn
 
 
 # In[20]:
@@ -47,7 +47,6 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from PIL import Image
-from scipy.stats import binom
 
 # # Student performance prediction for beginner DATASET
 
